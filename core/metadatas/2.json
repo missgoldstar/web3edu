@@ -1,0 +1,32 @@
+{
+    "description": "지역 활성화 도모위한 갯벌위원회 주최의 지역쇼핑할인이벤트 NFT 입니다. 본 NFT를 소지시 다양한 할인 혜택을 누릴 수 있습니다", 
+    "external_url":"https://ipfs.io/ipfs/Qmay7dRSBLAFN5evB7WGrM4cRboiSfb5UUtaEMaz9aWmwR", 
+    "image": "ipfs://Qmay7dRSBLAFN5evB7WGrM4cRboiSfb5UUtaEMaz9aWmwR", 
+    "name": "[갯벌]우리지역쇼핑NFT(학생전용)",
+    "attributes": [ 
+        {
+        "trait_type": "NFT발행번호", 
+        "value": "2"
+        }, 
+        {
+            "trait_type": "NFT발행날짜", 
+            "value": "2023.09.15"
+        }, 
+        {
+            "trait_type": "NFT발행처", 
+            "value": "인천시 갯벌마을 위원회"
+        }, 
+        {
+          "trait_type": "혜택1", 
+          "value": "우리지역 서점에서 책 구매시 최대 20% 할인"
+        }, 
+        {
+          "trait_type": "혜택2", 
+          "value": "우리지역 전통시장에서 구매시 20$ 할인 + 5% 지역토큰(포인트)환급"
+        }, 
+        {
+          "trait_type": "혜택3", 
+          "value": "상점B, 상점C 에서 구매시 모든 품목에 대해 50% 할인 +  10% 지역토큰(포인트) 환급"
+        }
+      ]  
+}
