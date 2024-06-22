@@ -1,0 +1,21 @@
+{
+    "description":"This is my art work!",
+    "external_url":"http://ipfs.io/ipfs/QmSTbh54UPFontDELkWXrWSfxfCMTFEHDWBzwWvXtccDan",
+    "image":"ipfs://QmSTbh54UPFontDELkWXrWSfxfCMTFEHDWBzwWvXtccDan",
+    "name":"art work NFT",
+  "attributes": [
+    {
+      "trait_type": "Created By",
+      "value": "Yunji Choi"
+    },
+    {
+      "trait_type": "Coupon",
+      "value": "If you have this NFT You can enter our exhibition hall"
+    },
+    {
+      "trait_type": "Exhibition Date",
+      "value": "2024.07.07"
+    }
+  ]
+}
+
