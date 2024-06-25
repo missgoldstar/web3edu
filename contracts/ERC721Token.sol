@@ -2,9 +2,9 @@
 pragma solidity ^0.8.24;
 
 // OpenZeppelin의 ERC721Enumerable 및 Strings 라이브러리 가져오기
-import '@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol';
-import '@openzeppelin/contracts/access/Ownable.sol';
-import '@openzeppelin/contracts/utils/Strings.sol';
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
 
 contract ERC721Token is ERC721Enumerable, Ownable {
     using Strings for uint256;
@@ -18,7 +18,7 @@ contract ERC721Token is ERC721Enumerable, Ownable {
         string memory symbol
     ) ERC721(name, symbol) Ownable(msg.sender) {
         // 컨트랙트 배포자 주소를 관리자로 설정
-        setBaseURI('ipfs://');
+        setBaseURI("ipfs://");
     }
 
     function mint(address to) external onlyOwner {
@@ -49,7 +49,7 @@ contract ERC721Token is ERC721Enumerable, Ownable {
     function _isOwned(uint256 tokenId) internal view {
         require(
             ownerOf(tokenId) == _msgSender(),
-            'ERC721Token: caller is not owner'
+            "ERC721Token: caller is not owner"
         );
     }
 

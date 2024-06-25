@@ -1,0 +1,25 @@
+
+{
+    "name": "art work NFT",
+    "description": "This is my art work!",
+    "image": "ipfs://QmcFaH2RAkcmwdSGk4SssMNNokoU44EjPSeTbk5okvvZ8L",
+    "attributes": [
+        {
+            "trait_type": "Created By",
+            "value": "Yunji Choi"
+          },
+          {
+            "trait_type": "Coupon",
+            "value": "If you have this NFT You can enter our exhibition hall"
+          },
+          {
+            "trait_type": "Exhibition Date",
+            "value": "2024.07.07"
+          },
+          {
+             "trait_type": "Number of guests allowed",
+            "value": "10"
+          }
+    ]
+  }
+
